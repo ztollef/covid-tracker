@@ -1,0 +1,15 @@
+{
+  "name": "covidtracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^2.9.3",
+    "nodemon": "^2.0.4"
+  }
+}
