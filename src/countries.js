@@ -271,7 +271,7 @@ function createCountryList(){
         ${country.Country}
         </li>
         `;
-    })
+    });
 }
 
 let num_of_ul_lists = 3;
@@ -301,11 +301,11 @@ input.addEventListener("input", function(){
         }else {
             document.getElementById(country.Country).classList.add("hide");
         }
-    })
+    });
 });
 
 function resetCountryList(){
     country_list.forEach(country => {
             document.getElementById(country.Country).classList.remove("hide");
-    })
+    });
 }
