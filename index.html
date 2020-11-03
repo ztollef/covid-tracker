@@ -13,7 +13,7 @@
         <nav>
             <ul>
                 <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
+                <li><a href="about.html">ABOUT</a></li>
             </ul>
         </nav>
     </header>
@@ -23,10 +23,6 @@
                 <div class="country">
                     <div class="name">United States of America</div>
                     <div class="change-country">change country</div>
-                    <!-- <label for="start-date">Data Collection Start:</label>
-                    <input type="date" id="start-date" name="start-date" min="2020-01" value="">
-                    <label for="end-date">Data Collection End:</label>
-                    <input type="date" id="end-date" name="end-date"> -->
                     <div class="search-country hide">
                         <div class="search-box">
                             <input type="text" id="search-input" placeholder="Search Country..."/>
@@ -58,10 +54,12 @@
             </div>
         </div>
     </main>
+    <footer>
+        <p>Data for this application comes from <a href="https://github.com/CSSEGISandData/COVID-19">Johns Hopkins CSSE</a> and is accessed through the <a href="https://covid19api.com/">COVID19 API</a>.</p>
+    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
-    <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
+        integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>
     <script src="./src/countries.js"></script>
     <script src="./src/app.js"></script>
 </body>
